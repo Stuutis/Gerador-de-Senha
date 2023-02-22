@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+
+  font-family: "Audiowide", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+  font-size: 20px;
+  color: white;
+  text-shadow: black 1px 1px;
+}
+
+.container {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(160, 218, 233);
+  margin: 50px auto;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.option p {
+  margin-right: 20px;
+}
+
+.qtd-caracteres {
+  width: 40px;
+}
+
+.senha-gerada {
+  margin: 20px 0px;
+  font-size: 40px;
+
+}
+
+input {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.gerar-senha {
+  width: 50%;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
+}
+
+.gerar-senha:hover {
+  background-color: rgb(206, 206, 206);
+}
